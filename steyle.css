@@ -325,7 +325,7 @@ footer p {
 }
 
 /* --- Responsive Design --- */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .hero {
         flex-direction: column-reverse;
         text-align: center;
@@ -342,7 +342,7 @@ footer p {
     nav ul {
         flex-direction: row;
         align-items: center;
-        gap: 1rem;
+        gap: 0.8rem;
     }
 
     nav ul li {
@@ -356,4 +356,5 @@ footer p {
 
     .contact-form {
         padding: 0 1rem;
+
     }
