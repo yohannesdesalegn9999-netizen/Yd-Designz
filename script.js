@@ -37,3 +37,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+// Responsive nav toggle
+const navToggle = document.getElementById('navToggle');
+const navUl = document.querySelector('nav ul');
+if (navToggle && navUl) {
+    navToggle.addEventListener('click', () => {
+        navUl.classList.toggle('active');
+    });
+}
+// ...existing code...
