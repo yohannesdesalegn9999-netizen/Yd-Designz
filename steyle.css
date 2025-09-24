@@ -370,15 +370,24 @@ footer p {
     @media (max-width: 768px) {
         nav ul {
             position: absolute;
-            top: 60px;
+            top: 58px;
             right: 0;
             background: var(--background-color);
             flex-direction: column;
-            width: 150px;
+            height: 650px;
+            min-width: 100px;  
+            width: 320px;
             display: none;
             box-shadow: 0 8px 16px rgba(0,0,0,0.3);
             border-radius: 0 0 10px 10px;
             z-index: 1001;
+            padding: 1rem 0;  
+        }
+        nav ul li {
+            margin: 1.5rem 0;
+            text-align: left;
+            margin-left: 2.5rem;
+            text-shadow: #ffffff;
         }
         nav ul.active {
             display: flex;
