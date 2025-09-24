@@ -374,7 +374,7 @@ footer p {
             right: 0;
             background: var(--background-color);
             flex-direction: column;
-            height: 650px;
+            height: 700px;
             min-width: 100px;  
             width: 320px;
             display: none;
@@ -400,3 +400,4 @@ footer p {
             display: flex;
         }
     }
+
